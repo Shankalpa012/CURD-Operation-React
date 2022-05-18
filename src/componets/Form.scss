@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+.items{
+    width: 50%;
+    margin:10px 0px;
+    padding: 15px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    
+  
+
+    h1{
+        font-size: 18px;
+    }
+
+    .form{
+        padding: 5px 0px;
+        margin: 5px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .label{
+            
+            font-size: 12px; 
+            display: flex;
+            flex-direction: column;
+            color: black;
+            
+            select,
+            input{
+                padding: 10px 0px;
+                margin: 5px 0px;
+                width: 70%;
+                border: 1px solid rgb(218, 218, 218);
+                border-radius: 5px;
+                outline: none;
+                font-size: 10px;
+            
+                ::placeholder{
+                    padding: 5px 0px;
+                }
+            }
+
+            
+            .file{
+                border: none;
+            }
+
+            input[type=file]::file-selector-button {
+                border:none;
+                padding: 8px;
+                border-radius: 3px;
+                background-color: #2DDE97;
+                cursor: pointer;
+                color: rgb(249, 247, 247);
+                
+            }
+        }
+        .status{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+
+            input{
+                width:5%;
+            }
+        }
+
+        .btn{
+            button{
+                padding:8px 20px;
+                margin: 0px;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                border-radius: 3px;
+                font-size: 10px;
+                color:rgb(249, 247, 247);
+                background-color: #2DDE97;
+
+            }
+
+            .btn1{
+                margin-right:10px ;
+            }
+        }
+       
+    }
+
+    .formData{
+        background-color: rgb(247, 247, 247); 
+        width: 100%;
+    }
+    
+
+}
+}
